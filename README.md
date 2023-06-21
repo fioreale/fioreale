@@ -14,6 +14,3 @@ Here is something about me:
 - [Waipoua](https://github.com/fioreale/Waipoua)
 - [a `pure HTML` money transfer website](https://github.com/fioreale/pureHTML_TIW2020_money_transfer_website)
 - [RoboProject](https://github.com/fioreale/RoboProject)
-
-
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=fioreale&count_private=true&theme=tokyonight&showicons=true)]()
