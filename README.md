@@ -1,12 +1,13 @@
-### Hi there 👋
+### Hello, World! :wave: 
 
-Here is something about me:
+I'm Alessio Fiorentino, a Computer Science Engineer :computer: from Muro Lucano :dna:, now based in Milan :city_sunset: 
 
-- 🎓 I completed my studies as an engineer in Computer Science at [PoliMI](https://polimi.it/)
-- from Muro Lucano 🧬, now in Milan 🌆
-- 🔥 Dissertation project experience in Edge Intelligence
-- 🔭 I'm currently working as a DevOps architect at [hiop](https://hiop.io)
-- 🌱 I'm diving into cloud computing, AI, security
+I'm currently working as a DevOps architect at [hiop](https://hiop.io) :cloud:
+> 🌱 I'm diving into cloud computing, AI, security
+
+I completed my studies as an engineer in Computer Science at [PoliMI](https://polimi.it/) 🎓
+> 🔥 Dissertation project experience in Edge Intelligence
+
 
 ## Noteworthy Projects
 
