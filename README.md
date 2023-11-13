@@ -20,4 +20,4 @@ Currently, I'm harnessing my skills as a **DevOps Architect** at [hiop](https://
 
 - **LinkedIn**: [Alessio Fiorentino](https://www.linkedin.com/in/alessio-fiorentino/)
 - **GitHub**: [@fioreale](https://github.com/fioreale)
-- **Email**: [alessio.fiorentino@email.com](mailto:alefio96@gmail.com)
+- **Email**: [alessio.fiorentino@gmail.com](mailto:alefio96@gmail.com)
