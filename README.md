@@ -18,6 +18,6 @@ Currently, I'm harnessing my skills as a **DevOps Architect** at [hiop](https://
 
 ### Let's Connect! 🌐
 
-- **LinkedIn**: [Alessio Fiorentino](https://www.linkedin.com/in/alessio-fiorentino/)
+- **LinkedIn**: [alessio-fiorentino](https://www.linkedin.com/in/alessio-fiorentino/)
 - **GitHub**: [@fioreale](https://github.com/fioreale)
-- **Email**: [alessio.fiorentino@gmail.com](mailto:alefio96@gmail.com)
+- **Email**: [alefio96@gmail.com](mailto:alefio96@gmail.com)
