@@ -1,16 +1,41 @@
 # Hello, I'm Alessio Fiorentino! 👨‍💻
-### DevOps Architect | Cloud Enthusiast | Code Crafter
-Welcome to my GitHub space, where architecture meets innovation in the cloud, blending DevOps principles with cloud computing to craft scalable, secure solutions that power today's digital landscapes 🚀.
+### Cloud Native Architect | DevOps Specialist | Engineering Leader
 
-#### 🛠 Tech Toolkit
-- **Clouds I Navigate**: AWS, Azure, fly.io
-- **Containers I Sail**: Kubernetes, Docker
-- **Infrastructure I Build**: Terraform, EKS, ECS
-- **Guardians at the Gate**: Envoy, OPA
-- **Languages I Speak**: Python, Rust, JavaScript
+Architecting the future of cloud infrastructure with a focus on scalable, secure, and innovative solutions.
 
-#### 📫 Let's Make Something Awesome
-Got an idea? Looking for a collaborator? Want to chat about the latest in cloud tech? Reach out, and let's start a conversation!
+## 🎯 Core Focus Areas
+- **Cloud Native Architecture**: Designing and implementing microservices-based solutions
+- **API Gateway Engineering**: Custom Envoy implementation with Rust-based WASM filters
+- **Security & Access Layer**: RBAC, SSO, Service Mesh architecture
+- **Infrastructure as Code**: Building scalable, maintainable cloud infrastructure
 
-- **LinkedIn**: [alessio-fiorentino](https://www.linkedin.com/in/alessio-fiorentino/)
-- **Email**: [alefio96@gmail.com](mailto:alefio96@gmail.com)
+## 🛠 Technical Expertise
+### Cloud & Infrastructure
+- **Platforms**: AWS, Azure, fly.io
+- **Orchestration**: Kubernetes (CKA Certified), Docker
+- **IaC**: Terraform, AWS EKS/ECS
+- **Service Mesh & Gateway**: Envoy, OPA
+
+### Development
+- **Languages**: Python, Rust, JavaScript
+- **Focus**: Cloud-native applications, WASM filters
+- **Practices**: DevOps methodology, CI/CD
+
+## 🏆 Certifications
+- Certified Kubernetes Administrator (CKA)
+- AWS Solutions Architect Associate
+- Microsoft Azure Fundamentals
+
+## 🌟 Key Projects
+- **Custom API Gateway**: Led the development of a specialized gateway solution using Envoy with custom WASM filters written in Rust
+- **Cloud Native Transformations**: Architecting and implementing cloud-native solutions focusing on scalability and security
+- **Infrastructure Automation**: Developing IaC solutions for complex cloud deployments
+
+## 📚 Engineering Philosophy
+"Building robust systems isn't just about code—it's about creating scalable, maintainable architectures that empower teams to innovate."
+
+## 📫 Let's Connect
+Whether you're interested in cloud architecture, DevOps practices, or engineering leadership, I'm always open to meaningful conversations and collaborations.
+
+- LinkedIn: [alessio-fiorentino](http://linkedin.com/in/alessio-fiorentino)
+- Email: alefio96@gmail.com
