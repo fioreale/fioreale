@@ -1,41 +1,46 @@
-# Hello, I'm Alessio Fiorentino! 👨‍💻
-### Cloud Native Architect | DevOps Specialist | Engineering Leader
+# Alessio Fiorentino
 
-Architecting the future of cloud infrastructure with a focus on scalable, secure, and innovative solutions.
+**Cloud Native Architect | DevOps Specialist | Engineering Leader**
 
-## 🎯 Core Focus Areas
-- **Cloud Native Architecture**: Designing and implementing microservices-based solutions
-- **API Gateway Engineering**: Custom Envoy implementation with Rust-based WASM filters
-- **Security & Access Layer**: RBAC, SSO, Service Mesh architecture
-- **Infrastructure as Code**: Building scalable, maintainable cloud infrastructure
+Architecting scalable, secure cloud infrastructure with expertise in microservices, service mesh, and API gateway engineering.
 
-## 🛠 Technical Expertise
-### Cloud & Infrastructure
-- **Platforms**: AWS, Azure, fly.io
-- **Orchestration**: Kubernetes (CKA Certified), Docker
-- **IaC**: Terraform, AWS EKS/ECS
-- **Service Mesh & Gateway**: Envoy, OPA
+---
 
-### Development
-- **Languages**: Python, Rust, JavaScript
-- **Focus**: Cloud-native applications, WASM filters
-- **Practices**: DevOps methodology, CI/CD
+## Expertise
 
-## 🏆 Certifications
+**Cloud Architecture & Infrastructure**
+AWS • Azure • fly.io • Kubernetes (CKA) • Docker • Terraform • EKS/ECS
+
+**API Gateway & Service Mesh**
+Envoy • Custom WASM Filters (Rust) • OPA • RBAC • SSO
+
+**Development**
+Python • Rust • JavaScript • Cloud-Native Applications • CI/CD
+
+---
+
+## Certifications
+
 - Certified Kubernetes Administrator (CKA)
 - AWS Solutions Architect Associate
 - Microsoft Azure Fundamentals
 
-## 🌟 Key Projects
-- **Custom API Gateway**: Led the development of a specialized gateway solution using Envoy with custom WASM filters written in Rust
-- **Cloud Native Transformations**: Architecting and implementing cloud-native solutions focusing on scalability and security
-- **Infrastructure Automation**: Developing IaC solutions for complex cloud deployments
+---
 
-## 📚 Engineering Philosophy
-"Building robust systems isn't just about code—it's about creating scalable, maintainable architectures that empower teams to innovate."
+## Notable Projects
 
-## 📫 Let's Connect
-Whether you're interested in cloud architecture, DevOps practices, or engineering leadership, I'm always open to meaningful conversations and collaborations.
+**Custom API Gateway**
+Developed a specialized Envoy-based gateway with custom Rust WASM filters for advanced security and access control.
 
-- LinkedIn: [alessio-fiorentino](http://linkedin.com/in/alessio-fiorentino)
-- Email: alefio96@gmail.com
+**Cloud Native Transformations**
+Architected and implemented enterprise-scale microservices solutions prioritizing scalability, security, and operational excellence.
+
+**Infrastructure as Code**
+Built automated IaC solutions for complex multi-cloud deployments.
+
+---
+
+## Connect
+
+**LinkedIn:** [alessio-fiorentino](http://linkedin.com/in/alessio-fiorentino)
+**Email:** alefio96@gmail.com
