@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --color-jet-black: #253132;
+  --color-dark-spruce: #2D4320;
+  --color-spicy-paprika: #E4672D;
+  --color-chocolate: #D66912;
+  --color-alabaster: #DADDDA;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+}
