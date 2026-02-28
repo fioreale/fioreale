@@ -13,13 +13,13 @@ import { siteConfig } from "../config";
         </h2>
         <div
           class="w-[75px] h-[5px] mt-2 rounded-full"
-          style={`background-color: ${siteConfig.accentColor}`}
+          style={`background-color: var(--color-accent)`}
         >
         </div>
       </div>
 
-      <div class="lg:col-span-8 space-y-8">
-        <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600">
+      <div class="lg:col-span-8 space-y-8 min-w-0">
+        <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600 break-words">
           {siteConfig.aboutMe}
         </p>
 
@@ -27,7 +27,10 @@ import { siteConfig } from "../config";
           <div class="flex flex-wrap gap-3">
             {
               siteConfig.skills.map((skill) => (
-                <span class="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-100 text-gray-800 rounded-full text-sm sm:text-base md:text-lg font-medium hover:bg-gray-200 transition-colors duration-200">
+                <span
+                  class="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-100 text-gray-800 rounded-full text-sm sm:text-base md:text-lg font-medium break-words overflow-wrap-break-word min-w-0 inline-block skill-badge"
+                  title={skill}
+                >
                   {skill}
                 </span>
               ))
@@ -38,3 +41,19 @@ import { siteConfig } from "../config";
     </div>
   </div>
 </section>
+
+<style>
+  .skill-badge {
+    transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .skill-badge:hover {
+    transform: scale(1.05) translateY(-2px);
+    background-color: #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .skill-badge:active {
+    transform: scale(0.98) translateY(0);
+  }
+</style>

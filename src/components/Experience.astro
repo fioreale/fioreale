@@ -14,7 +14,7 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
             </h2>
             <div
               class="w-[75px] h-[5px] mt-2 rounded-full"
-              style={`background-color: ${siteConfig.accentColor}`}
+              style={`background-color: var(--color-accent)`}
             />
           </div>
 
@@ -25,7 +25,7 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
                   {/* Timeline dot at top of card */}
                   <div
                     class="absolute left-1/2 -top-2 w-4 h-4 bg-white border-2 rounded-full -translate-x-1/2 z-20 transition-all duration-300"
-                    style={`border-color: ${siteConfig.accentColor}; background-color: ${siteConfig.accentColor}`}
+                    style={`border-color: var(--color-accent); background-color: var(--color-accent)`}
                   />
 
                   {/* Connecting line below card */}
@@ -34,29 +34,29 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
                   )}
 
                   {/* Experience card */}
-                  <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-5 md:p-6 hover:shadow-md transition-shadow duration-300">
-                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
-                      <div>
-                        <h3 class="text-lg sm:text-xl font-semibold text-gray-900">
+                  <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-5 md:p-6 min-w-0 experience-card">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 gap-2 min-w-0">
+                      <div class="min-w-0">
+                        <h3 class="text-lg sm:text-xl font-semibold text-gray-900 break-words">
                           {exp.title}
                         </h3>
                         <p
-                          class="text-base sm:text-lg"
-                          style={`color: ${siteConfig.accentColor}`}
+                          class="text-base sm:text-lg break-words"
+                          style={`color: var(--color-accent)`}
                         >
                           {exp.company}
                         </p>
                       </div>
-                      <span class="text-xs sm:text-sm text-gray-500 mt-2 sm:mt-0">
+                      <span class="text-xs sm:text-sm text-gray-500 flex-shrink-0">
                         {exp.dateRange}
                       </span>
                     </div>
 
                     <ul class="space-y-2">
                       {exp.bullets.map((bullet) => (
-                        <li class="flex items-start">
-                          <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
-                          <span class="text-sm sm:text-base text-gray-600">
+                        <li class="flex items-start gap-3 min-w-0">
+                          <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 flex-shrink-0" />
+                          <span class="text-sm sm:text-base text-gray-600 break-words min-w-0">
                             {bullet}
                           </span>
                         </li>
@@ -70,5 +70,21 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
         </div>
       </div>
     </section>
+
+    <style>
+      .experience-card {
+        transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+      }
+
+      .experience-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+        border-color: #e5e7eb;
+      }
+
+      .experience-card:active {
+        transform: translateY(-1px);
+      }
+    </style>
   )
 }

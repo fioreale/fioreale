@@ -5,7 +5,7 @@ import { siteConfig } from "../config";
 <div
   id="hero"
   class="relative isolate overflow-hidden py-24 md:h-screen"
-  style={`--accent-color: ${siteConfig.accentColor}; background-color: #253132;`}
+  style={`--accent-color: ${siteConfig.accentColor}; background-color: var(--color-background-dark);`}
 >
   <!-- Gradient overlay -->
   <div
@@ -134,21 +134,24 @@ import { siteConfig } from "../config";
     <div>
       <h2
         class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight animate-fade-in"
-        style="color: #DADDDA;"
+        style="color: var(--color-text-light);"
       >
         Hello! 👋
       </h2>
       <h1
-        class="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight animate-fade-in animation-delay-200"
-        style="color: #DADDDA;"
+        class="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight animate-fade-in animation-delay-200 min-w-0 break-words"
+        style="color: var(--color-text-light);"
       >
-        I'm <span style={{ color: siteConfig.accentColor }}
-          >{siteConfig.name}</span
+        I'm <span
+          class="block sm:inline min-w-0 break-words"
+          style={{ color: "var(--color-accent)" }}
         >
+          {siteConfig.name}
+        </span>
       </h1>
       <p
         class="mt-4 sm:mt-6 md:mt-8 text-pretty text-base sm:text-lg md:text-xl/8 font-medium animate-fade-in animation-delay-400"
-        style="color: rgba(218, 221, 218, 0.70);"
+        style="color: var(--color-text-light-muted);"
       >
         {siteConfig.title}
       </p>
@@ -156,7 +159,7 @@ import { siteConfig } from "../config";
   </div>
   <div
     class="absolute bottom-0 left-0 right-0 p-8 sm:p-12 md:p-24 flex gap-x-4 sm:gap-x-6 md:gap-x-8 animate-fade-in animation-delay-600"
-    style="color: #DADDDA;"
+    style="color: var(--color-text-light);"
   >
     {
       siteConfig.social?.linkedin && (
@@ -224,10 +227,10 @@ import { siteConfig } from "../config";
 </div>
 
 <style>
-  @keyframes fadeIn {
+  @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(24px);
     }
     to {
       opacity: 1;
@@ -236,19 +239,32 @@ import { siteConfig } from "../config";
   }
 
   .animate-fade-in {
-    animation: fadeIn 0.8s ease-out forwards;
+    animation: fadeInUp 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
     opacity: 0;
   }
 
   .animation-delay-200 {
-    animation-delay: 0.2s;
+    animation-delay: 0.15s;
   }
 
   .animation-delay-400 {
-    animation-delay: 0.4s;
+    animation-delay: 0.3s;
   }
 
   .animation-delay-600 {
-    animation-delay: 0.6s;
+    animation-delay: 0.45s;
+  }
+
+  /* Refined social link interactions */
+  a svg {
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  a:hover svg {
+    transform: translateY(-3px);
+  }
+
+  a:active svg {
+    transform: translateY(-1px);
   }
 </style>

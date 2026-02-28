@@ -8,17 +8,17 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 
 <footer
   class="relative border-t"
-  style="background-color: #2D4320; border-color: #253132;"
+  style="background-color: var(--color-background-dark); border-color: var(--color-background-dark);"
 >
   <div class="mx-auto max-w-6xl px-6 py-12 lg:px-8">
     <div
       class="flex flex-col md:flex-row md:items-center md:justify-between gap-8"
     >
-      <div class="flex flex-col gap-4">
-        <h3 class="text-2xl font-bold" style="color: #DADDDA;">
+      <div class="flex flex-col gap-4 min-w-0">
+        <h3 class="text-2xl font-bold break-words" style="color: var(--color-text-light);">
           {siteConfig.name}
         </h3>
-        <p class="text-base" style="color: rgba(218, 221, 218, 0.70);">
+        <p class="text-base break-words" style="color: var(--color-text-light-muted);">
           {siteConfig.title}
         </p>
         <div class="flex gap-x-6">
@@ -30,7 +30,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
                 class="footer-social-link transition-colors duration-300"
-                style={`color: rgba(218,221,218,0.70); --accent-color: ${siteConfig.accentColor}`}
+                style={`color: var(--color-text-light-muted); --accent-color: ${siteConfig.accentColor}`}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                 rel="noopener noreferrer"
                 aria-label="GitHub"
                 class="footer-social-link transition-colors duration-300"
-                style={`color: rgba(218,221,218,0.70); --accent-color: ${siteConfig.accentColor}`}
+                style={`color: var(--color-text-light-muted); --accent-color: ${siteConfig.accentColor}`}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           <a
             href="#about"
             class="footer-nav-link text-sm transition-colors"
-            style="color: rgba(218, 221, 218, 0.70);"
+            style="color: var(--color-text-light-muted);"
             >About</a
           >
           {
@@ -98,7 +98,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               <a
                 href="#projects"
                 class="footer-nav-link text-sm transition-colors"
-                style="color: rgba(218, 221, 218, 0.70);"
+                style="color: var(--color-text-light-muted);"
               >
                 Projects
               </a>
@@ -109,7 +109,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               <a
                 href="#experience"
                 class="footer-nav-link text-sm transition-colors"
-                style="color: rgba(218, 221, 218, 0.70);"
+                style="color: var(--color-text-light-muted);"
               >
                 Experience
               </a>
@@ -120,14 +120,14 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               <a
                 href="#education"
                 class="footer-nav-link text-sm transition-colors"
-                style="color: rgba(218, 221, 218, 0.70);"
+                style="color: var(--color-text-light-muted);"
               >
                 Education
               </a>
             )
           }
         </nav>
-        <p class="text-sm" style="color: rgba(218, 221, 218, 0.50);">
+        <p class="text-sm" style="color: var(--color-text-light-muted);">
           © {new Date().getFullYear()}
           {siteConfig.name}. All rights reserved.
         </p>
@@ -140,7 +140,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
     <svg
       aria-hidden="true"
       class="absolute bottom-0 left-0 w-full h-24"
-      style="color: #253132;"
+      style="color: var(--color-background-dark);"
     >
       <pattern
         id="footer-pattern"
@@ -163,8 +163,22 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 </footer>
 
 <style>
+  .footer-social-link,
+  .footer-nav-link {
+    transition: color 0.2s ease-out, transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    display: inline-block;
+  }
+
   .footer-social-link:hover,
-  .footer-nav-link:hover {
-    color: #E4672D !important;
+  .footer-social-link:focus-visible,
+  .footer-nav-link:hover,
+  .footer-nav-link:focus-visible {
+    color: var(--color-accent) !important;
+    transform: translateY(-2px);
+  }
+
+  .footer-social-link:active,
+  .footer-nav-link:active {
+    transform: translateY(0);
   }
 </style>
