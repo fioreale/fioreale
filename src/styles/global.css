@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary Colors */
+  --color-jet-black: #253132;
+  --color-spicy-paprika: #E4672D;
+  --color-alabaster: #DADDDA;
+
+  /* Semantic Aliases */
+  --color-background-dark: var(--color-jet-black);
+  --color-accent: var(--color-spicy-paprika);
+  --color-text-light: var(--color-alabaster);
+  --color-text-light-muted: rgba(218, 221, 218, 0.85);
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  /* Ensure proper text rendering and character support */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for emoji and multi-byte characters */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Focus indicator for keyboard navigation */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Accessibility: Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Text overflow handling for long content */
+h1, h2, h3, h4, h5, h6 {
+  /* Allow text to wrap naturally, don't truncate headings */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Satisfying interaction base styles */
+button,
+a,
+[role="button"] {
+  position: relative;
+  transition: color 0.2s ease-out, transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Refined active state for buttons and links */
+button:active,
+a:active,
+[role="button"]:active {
+  transform: scale(0.98);
+}
+
+/* Smooth transitions for color properties */
+a,
+button,
+input,
+textarea,
+select {
+  transition: color 0.2s ease-out;
+}
+
+/* Elegant box-shadow transitions */
+.card,
+.project-card,
+.experience-card,
+.education-card {
+  transition: box-shadow 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+              transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Ensure flex items don't overflow */
+.flex {
+  min-width: 0; /* Allows flex children to shrink below content size */
+}
+
+/* Ensure grid items don't overflow */
+.grid {
+  min-width: 0;
+  min-height: 0;
+}
