@@ -1,15 +1,15 @@
 export const siteConfig = {
   name: "Alessio Fiorentino",
-  title: "Technical Architect, Cloud Systems Builder, and Founder",
+  title: "Systems Architect & Technical Director",
   description:
-    "Portfolio of Alessio Fiorentino — Technical Architect, Cloud Systems Builder, and Founder",
+    "Portfolio of Alessio Fiorentino — Systems Architect & Technical Director",
   accentColor: "#E4672D",
   social: {
     linkedin: "https://linkedin.com/in/alessio-fiorentino",
     github: "https://github.com/fioreale",
   },
   aboutMe:
-    "I design resilient cloud infrastructure, validate products with rigor, and build software where AI, operations, and human workflows meet. Based between Milan and Bergamo, I operate as a CloudOps Specialist at Brembo, where I enable teams through sound cloud architecture rather than control-heavy processes. What differentiates my profile is the continuity between enterprise execution and venture building.",
+    "I design, direct, implement, and validate complex ICT systems — from architectural decisions to production deployment. My work spans the full technical lifecycle: architectural design, technical direction, co-build delivery, system validation, and compliance verification. Based between Milan and Bergamo, with enterprise experience at Brembo, Atos, and hiop, and a MSc in Computer Science & Engineering from Politecnico di Milano. What differentiates my profile is the continuity between enterprise execution, technical authority, and venture building.",
   skills: [
     "AWS",
     "Azure",
@@ -81,28 +81,28 @@ export const siteConfig = {
       role: "CloudOps Specialist",
       dateRange: "2025 - Feb 2026",
       description:
-        "Contributing to digital transformation through cloud architecture, team enablement, and operational clarity. Colleagues frequently rely on me for technical guidance.",
+        "Contributing to digital transformation through cloud architecture, team enablement, and operational clarity. Technical reference point for architectural decisions, system validation, and compliance.",
     },
     {
       company: "Hiop",
       role: "Software Engineer & DevSecOps Architect",
       dateRange: "Nov 2023 - Dec 2024",
       description:
-        "Secure architecture design and SDLC integration.",
+        "Secure architecture design, SDLC integration, and system validation. Defined security policies and verified compliance across the development lifecycle.",
     },
     {
       company: "Hiop",
       role: "Software Engineer & DevOps Architect",
       dateRange: "Nov 2022 - Nov 2023",
       description:
-        "Infrastructure optimization achieving 30% cost reduction and delivering client cloud solutions.",
+        "Infrastructure optimization achieving 30% cost reduction and delivering client cloud solutions. Directed technical decisions on architecture and validated system integrations.",
     },
     {
       company: "Atos",
       role: "Cloud Architect",
       dateRange: "Oct 2021 - Oct 2022",
       description:
-        "Led migrations to Azure and AWS for enterprise clients.",
+        "Led migrations to Azure and AWS for enterprise clients. Directed architectural decisions and validated system readiness for production deployment.",
     },
     {
       company: "HOPENLY S.R.L.",
