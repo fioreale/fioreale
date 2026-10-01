@@ -1,7 +1,7 @@
 export const siteConfig = {
   "name": "Alessio Fiorentino",
   "title": "Software Engineer & Product Builder",
-  "description": "Alessio Fiorentino builds software for complex business workflows. Currently building Ledgr, with a background in enterprise cloud systems.",
+  "description": "Alessio Fiorentino — software engineer and product builder working at the intersection of specialist knowledge, complex workflows, and software.",
   "accentColor": "#E4672D",
   "social": {
     "linkedin": "https://www.linkedin.com/in/fioreale",
@@ -9,36 +9,13 @@ export const siteConfig = {
   },
   "hero": {
     "headline": "I turn specialist knowledge into working software.",
-    "introduction": "I'm Alessio Fiorentino, a software engineer and product builder with a background in enterprise cloud systems. Currently focused on Ledgr, a product for accounting analysis and financial planning."
+    "introduction": "I'm Alessio Fiorentino, a software engineer and product builder. I combine product thinking with hands-on engineering to make complex processes easier to work with."
   },
   "current": {
     "name": "Ledgr",
-    "status": "Currently building",
-    "summary": "Turning accounting data into structured analysis, business plans, forecasts, and scenario comparisons.",
-    "context": "Built in close collaboration with an accounting and tax domain expert, for professional firms and internal finance and accounting teams.",
-    "role": "As a founding member, I work across product direction, domain modelling, software architecture, implementation, and validation.",
-    "caseStudy": [
-      {
-        "title": "The problem",
-        "text": "Accounting data is only a starting point. Turning it into a business plan or a useful comparison of future scenarios requires specialist judgment, explicit assumptions, and consistent calculations. The product brings these steps into a shared workflow."
-      },
-      {
-        "title": "From expertise to product",
-        "text": "I work directly with a domain expert to translate accounting and tax knowledge into data models, calculation rules, and planning workflows. The work involves making assumptions explicit and checking that the software reflects the intended financial meaning."
-      },
-      {
-        "title": "What I build",
-        "text": "My work covers platform architecture and implementation, financial statements, cash flow, KPIs, and the management of assumptions and plan versions. Scenario comparisons reuse the calculation logic while changing inputs, so differences can be traced back to their assumptions."
-      },
-      {
-        "title": "Engineering decisions",
-        "text": "Financial calculations need consistent rules and validation. I focus on calculation traceability, versioned planning inputs, and dependable production delivery, so outputs can be inspected and behaviour can be checked."
-      },
-      {
-        "title": "Current stage",
-        "text": "Ledgr is my primary product focus. Current development centres on accounting analysis, planning workflows, and scenario comparisons, in close collaboration with the domain expert."
-      }
-    ]
+    "status": "Product work",
+    "summary": "A B2B software initiative.",
+    "context": "My contribution has spanned product thinking and software engineering."
   },
   "aboutMe": "I start with the people who understand a process: what they know, where information gets lost, and which decisions the software needs to support. Then I model the domain, build a focused workflow, and validate it with them. My enterprise background helps me carry that work through to reliable deployment and operation.",
   "skills": [
@@ -117,7 +94,7 @@ export const siteConfig = {
     }
   ],
   "workWithMe": {
-    "introduction": "My primary focus is Ledgr. I also consider selected collaborations with companies and domain experts turning complex, manual, or knowledge-intensive workflows into software.",
+    "introduction": "I consider selected collaborations with companies and domain experts turning complex, manual, or knowledge-intensive workflows into software.",
     "scope": "A useful starting point is a bounded technical assessment or prototype: understand the process, model the data and rules, and test a concrete workflow before committing to a larger build.",
     "invitation": "If you have a process like this, tell me who uses it, where it gets stuck, and what you want to change."
   },
