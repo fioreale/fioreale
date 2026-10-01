@@ -1,5 +1,7 @@
 ---
 import Header from "../components/Header.astro";
+import Current from "../components/Current.astro";
+import WorkWithMe from "../components/WorkWithMe.astro";
 import Hero from "../components/Hero.astro";
 import About from "../components/About.astro";
 import Projects from "../components/Projects.astro";
@@ -27,13 +29,15 @@ import "../styles/global.css";
   </head>
   <body>
     <Header />
-    <section>
+    <main id="main">
       <Hero />
-      <About />
+      <Current />
       <Projects />
+      <About />
       <Experience />
       <Education />
-    </section>
+      <WorkWithMe />
+    </main>
     <Footer />
   </body>
 </html>

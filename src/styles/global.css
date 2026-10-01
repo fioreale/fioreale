@@ -93,3 +93,5 @@ select {
   min-width: 0;
   min-height: 0;
 }
+
+section[id] { scroll-margin-top: 5rem; }

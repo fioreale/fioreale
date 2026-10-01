@@ -1,0 +1,15 @@
+---
+import { siteConfig } from "../config";
+const work = siteConfig.workWithMe;
+---
+<section id="work-with-me" class="p-8 sm:p-12 md:p-16 lg:p-24 bg-gray-50">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
+    <h2 class="lg:col-span-4 text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">Work with me</h2>
+    <div class="lg:col-span-8 space-y-6 text-lg leading-relaxed text-gray-600">
+      <p>{work.introduction}</p>
+      <p>{work.scope}</p>
+      <p>{work.invitation}</p>
+      <a href={siteConfig.social.linkedin} target="_blank" rel="noopener noreferrer" class="inline-block font-semibold underline underline-offset-4 text-gray-900">Get in touch on LinkedIn →</a>
+    </div>
+  </div>
+</section>
