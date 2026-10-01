@@ -9,13 +9,14 @@ export const siteConfig = {
   },
   "hero": {
     "headline": "I turn specialist knowledge into working software.",
-    "introduction": "I'm Alessio Fiorentino, a software engineer and product builder. I combine product thinking with hands-on engineering to make complex processes easier to work with."
+    "introduction": "I'm Alessio Fiorentino, a software engineer and product builder with experience across enterprise systems and startup projects. I connect domain knowledge, product thinking, and hands-on engineering to turn complex business processes into useful software."
   },
   "current": {
     "name": "Ledgr",
     "status": "Product work",
-    "summary": "A B2B software initiative.",
-    "context": "My contribution has spanned product thinking and software engineering."
+    "summary": "A B2B product initiative exploring how specialist expertise can become practical software.",
+    "context": "Ledgr brings together domain knowledge and software engineering. My work has focused on understanding professional needs, shaping the product, and translating complex requirements into a coherent software foundation.",
+    "role": "As a founding member, my contribution has spanned product direction, domain modelling, architecture, and implementation. It reflects the kind of work I enjoy: working closely with people who know a problem deeply and connecting that understanding with the decisions needed to build a useful product."
   },
   "aboutMe": "I start with the people who understand a process: what they know, where information gets lost, and which decisions the software needs to support. Then I model the domain, build a focused workflow, and validate it with them. My enterprise background helps me carry that work through to reliable deployment and operation.",
   "skills": [
